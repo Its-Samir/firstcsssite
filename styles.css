@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-family: 'Merienda One', cursive;
+    color: #009688;
+    margin: 0.937rem auto;
+    font-size: 2.6rem;
+    line-height: 4;
+    text-align: center;
+}
+
+h2 {
+    font-weight: normal;
+    color: #8109f8;
+    text-align: center;
+}
+
+h3 {
+    color: #11999E;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+
+.top-container {
+    background-color: #7efbe4;
+    position: relative;
+    background-size: 40% 60%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url('image/CSS - My Site Images/travel-mountains-island-landscape.jpeg');
+    padding-top: 100px;
+    height: 700px;
+    text-align: center;
+}
+
+.profile-pic {
+    margin: 20px auto 10px auto;
+}
+
+.middle-container {
+    margin: auto;
+    color: rgb(100, 96, 96);
+    text-align: center;
+    line-height: 2;
+    /* background-color: #d3f1ff; */
+}
+
+.bottom-container {
+    text-align: center;
+    background-color: #11999E;
+    line-height: 3;
+    padding: 20px 0 20px;
+}
+
+.footer-link {
+    padding-left: 15px;
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    top: 15px;
+}
+
+.footer-link:hover {
+    color: rgb(9, 220, 139);
+}
+
+.copyrght {
+    color: white;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    width: 20%;
+    right: 300px;
+    z-index: 0;
+}
+
+.bottom-cloud {
+    position: absolute;
+    width: 20%;
+    left: 300px;
+    bottom: 350px;
+    z-index: 0;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin: auto 30px auto;
+}
+
+.chillies-img {
+    width: 25%;
+    float: right;
+    margin: auto 30px auto;
+}
+
+.contact-me {
+    padding: 20px;
+}
+
+.contact-btn {
+    border-radius: 8px;
+    padding: 5px 10px 5px 10px;
+    color: #11cdd4;
+}
+
+.contact-description {
+    width: 40%;
+    margin: 20px auto;
+}
+
+hr {
+    border-style: dotted;
+    color: #11999E;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.btn {
+    line-height: 7;
+
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+    .top-container {
+        background-size: 60% 55%;
+    }
+}
+
+@media (max-width: 590px) {
+    .mountain-img {
+        width: 70%;
+        margin: 40px auto;
+    }
+
+    .bottom-cloud {
+        left: 350px;
+        bottom: 400px;
+    }
+
+    .top-cloud {
+        right: 350px;
+        top: 100px;
+    }
+}
+
+@media (max-width: 426px) {
+    .top-container {
+        background-size: 100% 45%;
+    }
+    
+    .mountain-img {
+        width: 80%;
+        margin: 60px auto;
+    }
+
+    .bottom-cloud {
+        left: 300px;
+        bottom: 400px;
+    }
+
+    .top-cloud {
+        left: 20px;
+
+    }
+}
+
+@media (max-width: 376px) {
+    
+    .mountain-img {
+        width: 90%;
+        margin: 100px auto;
+    }
+
+    .bottom-cloud {
+        left: 250px;
+        width: 30%;
+        bottom: 400px;
+    }
+
+    .top-cloud {
+        left: 20px;
+        width: 30%;
+    }
+}
+
+@media (max-width: 321px) {
+
+    .mountain-img {
+        width: 90%;
+        margin: 100px auto;
+    }
+
+    .bottom-cloud {
+        left: 200px;
+        bottom: 400px;
+    }
+
+    .top-cloud {
+        left: 20px;
+    }
+}
