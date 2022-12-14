@@ -190,7 +190,7 @@ hr {
 
 @media (max-width: 426px) {
     .top-container {
-        background-size: 100% 45%;
+        background-size: 120% 45%;
     }
     
     .mountain-img {
